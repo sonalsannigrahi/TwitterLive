@@ -49,7 +49,7 @@ try:
     print('Streaming tweets...')
     stream.sample(languages=['en'])
 except KeyboardInterrupt:
-    print("Keyboard interrupe error!")
+    print("Keyboard interrupt error!")
 finally:
     print('Streaming stopped')
     stream.disconnect()
